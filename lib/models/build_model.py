@@ -64,7 +64,7 @@ class TAL_model(torch.nn.Module):
         noise = torch.rand(B, T, device=video_data.device)  # noise in [0, 1]
 
         # sort noise for each sample
-        ids_shuffle = torch.argsort(noise, dim=1)  # ascend: small is frozen, large is train
+        ids_shuffle = torch.argsort(noise, dim=1)
 
         for chunk_idx in range(chunk_num):
             snippet_idx = ids_shuffle[:, chunk_idx * self.chunk_size : (chunk_idx + 1) * self.chunk_size]
