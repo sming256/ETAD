@@ -31,6 +31,6 @@ if __name__ == "__main__":
     logger = setup_logger("Post", "./exps/%s/" % (cfg.EXP_NAME))
     logger.info(cfg)
 
-    # detection post processing according dataset    logger.info("dataset: {}".format(cfg.DATASET.name))
+    # detection post processing according dataset
     logger.info("dataset: {}".format(cfg.DATASET.name))
     build_post_processing(name=cfg.DATASET.name, cfg=cfg, logger=logger)
