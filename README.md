@@ -74,7 +74,7 @@ You can download the pretrained models in this [link](https://github.com/sming25
 If you want to do inference with our checkpoint, you can simply run
 
 ```
-python tools/test.py configs/anet/e2e_anet_tsp_snippet0.3.py 1 --checkpoint e2e_anet_snippet0.3_bs4_92e98.pth.pth
+python tools/test.py configs/anet/e2e_anet_tsp_snippet0.3.py 1 --checkpoint e2e_anet_snippet0.3_bs4_92e98.pth.tar
 python tools/post.py configs/anet/e2e_anet_tsp_snippet0.3.py
 ```
 
