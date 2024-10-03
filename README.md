@@ -85,7 +85,7 @@ The results on ActivityNet (with CUHK classifier) should be
 | ETAD - TSP - Feature | 54.96 | 39.06 | 9.21  | 37.80 |
 | ETAD - TSP - E2E     | 56.22 | 39.93 | 10.23 | 38.73 |
 
-You can also download our **logs, and results** from [Google Drive](https://drive.google.com/drive/folders/1prknt8Ujsf_Wcpo6Z0ZU1NdXuEkK4d5j?usp=sharing). 
+You can also download our **logs, and results** from [Google Drive](https://drive.google.com/drive/folders/1K4woHQn1FvODSp9UPsoC5Ac0NMhIzKS-?usp=sharing). 
 
 
 ## Contact
